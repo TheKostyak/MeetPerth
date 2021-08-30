@@ -48,45 +48,45 @@ h1
 	height: 650px
 	background: #f4f4f4
 
-h2
-	padding-top: 150px
-	color: #545454
-	font-size: 40px
-	font-weight: 400
+	&_title
+		padding-top: 150px
+		color: #545454
+		font-size: 40px
+		font-weight: 400
 
-.descr
-	width: 530px
-	margin-top: 20px
+	&_descr
+		width: 530px
+		margin-top: 20px
 
-.quote
-	width: 530px
-	height: 70px
-	padding-left: 20px
-	margin-top: 25px
-	border-left: 5px solid #4eacdd
+	&_quote
+		width: 530px
+		//height: 70px
+		padding-left: 20px
+		margin-top: 25px
+		border-left: 5px solid #4eacdd
 
-.hello_btn
-	width: 173px
-	height: 57px
-	margin-top: 60px
-	text-transform: uppercase
-	color: #14af8f
-	border: 2px solid #14af8f
-	padding: 10px
-	.msg_icon
-		width: 15px
-		height: 15px
+	.hello_btn
+		width: 173px
+		height: 57px
+		margin-top: 60px
+		text-transform: uppercase
 		color: #14af8f
-		margin-left: 5px
+		border: 2px solid #14af8f
+		padding: 10px
+		.msg_icon
+			width: 15px
+			height: 15px
+			color: #14af8f
+			margin-left: 5px
 
-.ipad
-	position: absolute
-	right: 0
-	margin-top: -50px
+	&_ipad
+		position: absolute
+		right: 0
+		margin-top: -350px
 
 .portfolio 
 	position: relative
-	height: 650px
+	min-height: 650px
 	background: #fff
 	&_header
 		margin-top: 100px
@@ -112,7 +112,7 @@ h2
 			height: 15px
 			margin-left: 10px
 			margin-top: -2px
-	.devices
+	&_devices
 		position: absolute
 		margin-top: -150px
 		left: 0
@@ -148,10 +148,12 @@ h2
 			margin-left: 10px
 
 .contact
-	height: 650px
+	min-height: 650px
 	background: #f4f4f4
-	.links
-		margin: 245px auto 80px auto
+	&_links
+		//margin: 245px auto 80px auto
+		margin-top: 245px
+		margin-bottom: 80px
 	a
 		margin-right: 30px
 	label
